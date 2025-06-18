@@ -7,7 +7,7 @@ async function updateCounter() {
         counter.innerHTML = ` Views: ${data}`;
     } catch (error) {
         console.error("Error fetching views:", error);
-        counter.innerHTML = "Views: N/A";
+        counter.innerHTML = "Views: NA/A";
     }
 }
 
